@@ -2,6 +2,19 @@
 @tailwind components;
 @tailwind utilities;
 
+* {
+  font-family: DM Sans, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu,
+    Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
 .example::-webkit-scrollbar {
   display: none;
+}
+
+.bg-image {
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.1)),
+    url('https://static.menasa.net/637b4c17cbe3c05f1e76fa77/logo/WhatsApp_Image_2022-11-21_at_1.01.10_PM_1669025291771_iDhJG.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }

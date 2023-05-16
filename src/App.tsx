@@ -1,8 +1,12 @@
+import { Navbar } from './components/navbar';
+import { Sidebar } from './components/sidebar';
+
 function App() {
   return (
-    <>
-      <h1 className='text-red-400'>Vite + React</h1>
-    </>
+    <div className='flex'>
+      <Sidebar />
+      <Navbar />
+    </div>
   );
 }
 
