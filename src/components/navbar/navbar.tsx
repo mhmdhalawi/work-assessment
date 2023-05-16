@@ -14,7 +14,7 @@ export const Navbar = () => {
     },
   ];
   return (
-    <div className='flex-[0.7] pt-6 h-[100vh] bg-image   w-full '>
+    <div className='flex-[0.7] pt-6 h-[100vh] bg-image w-full '>
       <nav>
         <ul className='flex w-full justify-center gap-x-8 '>
           {menu.map((item, index) => (
