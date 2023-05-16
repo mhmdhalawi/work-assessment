@@ -1,6 +1,6 @@
 export const Product = () => {
   return (
-    <div className='shadow-lg rounded-md '>
+    <div className='shadow-lg rounded-md cursor-pointer hover:bg-gray-50'>
       <img
         src='https://static.menasa.net/637b4c17cbe3c05f1e76fa77/item/IMG_5074_1671621757465_gYoWo.jpg'
         className=' rounded-t-md'
