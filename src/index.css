@@ -7,7 +7,7 @@
     Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
 }
 
-.example::-webkit-scrollbar {
+.products-slider::-webkit-scrollbar {
   display: none;
 }
 

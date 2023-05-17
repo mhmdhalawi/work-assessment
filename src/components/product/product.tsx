@@ -1,14 +1,19 @@
-export const Product = () => {
+interface IProps {
+  name: string;
+  price: number;
+  image: string;
+  sale: number;
+}
+
+export const Product = (props: IProps) => {
+  const { image, name, price, sale } = props;
   return (
-    <div className='shadow-lg rounded-md cursor-pointer hover:bg-gray-50'>
-      <img
-        src='https://static.menasa.net/637b4c17cbe3c05f1e76fa77/item/IMG_5074_1671621757465_gYoWo.jpg'
-        className=' rounded-t-md'
-      />
+    <div className='shadow-lg  rounded-md cursor-pointer hover:bg-gray-50 min-w-[190px]'>
+      <img src={image} className=' rounded-t-md' />
       <div className='p-2'>
-        <p className='font-semibold'>Swing dress pumpkin</p>
-        <p className='text-gray-400 '>50% off</p>
-        <p className='mt-4 px-2 font-semibold inline-flex border-2 rounded'>KWD 8.500</p>
+        <p className='font-semibold'>{name}</p>
+        <p className='text-gray-400 '>{sale}% off</p>
+        <p className='mt-4 px-2 font-semibold inline-flex border-2 rounded'>KWD {price}</p>
       </div>
     </div>
   );

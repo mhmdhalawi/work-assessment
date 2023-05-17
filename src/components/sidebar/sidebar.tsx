@@ -6,7 +6,7 @@ export const Sidebar = () => {
     <div className='flex-[0.3] w-1/3 py-2  max-h-[100vh] overflow-y-auto pb-16 space-y-2 divide-y relative'>
       <p className='mx-6 py-2 text-center  hover:bg-gray-100 cursor-pointer rounded'>Delivery</p>
       <div className=' w-full'>
-        <div className='px-6 w-full space-y-2 relative '>
+        <div className='pl-6 w-full space-y-2 relative '>
           <div className='w-full relative py-4'>
             <MagnifyingGlassIcon className='w-5 absolute top-[50%] left-2 translate-y-[-50%]' />
             <input
@@ -23,7 +23,7 @@ export const Sidebar = () => {
           </div>
           <p className='text-center py-4  text-gray-500'>Powered by menasa</p>
         </div>
-        <button className='mx-6 fixed bottom-2 left-0 bg-[#E3D0B8] text-white w-[26.9%] py-3 rounded border-none'>
+        <button className='mx-6 fixed bottom-2 left-0 bg-[#E3D0B8] hover:bg-[#ddc6a9] text-white w-[26.9%] py-3 rounded border-none'>
           Start Ordering
         </button>
       </div>
